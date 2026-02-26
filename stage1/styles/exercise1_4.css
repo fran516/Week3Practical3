@@ -1,27 +1,18 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-wrap: wrap;
     width: 300px;
 }
 
-.square {
+#sq6 {
     order: 1;
 }
 
-#sq7, #sq8, #sq9 {
-    order: 5;
-}
-
-#sq4 {
-    order: 4;
-}
-
 #sq5 {
-    order: 3;
-}
-
-#sq6 {
     order: 2;
 }
 
+#sq4, #sq7, #sq8, #sq9 {
+    order: 3;
+}
 

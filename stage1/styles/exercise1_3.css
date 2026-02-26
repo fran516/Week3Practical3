@@ -1,5 +1,5 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-direction: wrap;
     width: 300px;
 }
