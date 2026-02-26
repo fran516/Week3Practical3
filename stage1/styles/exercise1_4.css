@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+}
+
+.square {
+    order: 1;
+}
+
+#sq7, #sq8, #sq9 {
+    order: 5;
+}
+
+#sq4 {
+    order: 4;
+}
+
+#sq5 {
+    order: 3;
+}
+
+#sq6 {
+    order: 2;
+}
+
+
